@@ -1,8 +1,10 @@
 branch-defaults:
   development:
     environment: Development-env
+  master:
+    environment: production-env-demo-app
 environment-defaults:
-  Dev-env:
+  Development-env:
     branch: null
     repository: null
 global:
